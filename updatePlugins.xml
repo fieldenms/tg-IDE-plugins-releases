@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+
+  <plugin
+      id="fielden.idea.apt"
+      url="TODO"
+      version="0.2-20240402.100000">
+    <idea-version since-build="232.10203.10" until-build=""/>
+    <name>Annotation Processing Tool</name>
+    <depends>fielden.idea.apt-sync</depends>
+    <change-notes>
+        <![CDATA[
+        <ul>
+            <li> Added some cool features.
+        </ul>
+        ]]>
+    </change-notes>
+  </plugin>
+
+</plugins>
