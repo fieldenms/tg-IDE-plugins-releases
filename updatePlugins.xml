@@ -3,7 +3,7 @@
 
   <plugin
       id="fielden.idea.apt"
-      url="TODO"
+      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/idea-apt%2F0.2-20240402.100000/idea-apt-0.2-20240402.100000.zip"
       version="0.2-20240402.100000">
     <idea-version since-build="232.10203.10" until-build=""/>
     <name>Annotation Processing Tool</name>
@@ -11,7 +11,7 @@
     <change-notes>
         <![CDATA[
         <ul>
-            <li> Added some cool features.
+            <li> Avoid <code>ContainerDisposedException</code> when handling projects.
         </ul>
         ]]>
     </change-notes>
