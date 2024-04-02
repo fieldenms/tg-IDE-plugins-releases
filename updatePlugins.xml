@@ -17,4 +17,14 @@
     </change-notes>
   </plugin>
 
+  <plugin
+      id="fielden.idea.apt-sync"
+      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/idea-apt-sync%2F0.1-20240402.100000/idea-apt-sync-0.1-20240402-100000.zip"
+      version="0.1-20240402.100000">
+    <idea-version since-build="232.10203.10" until-build=""/>
+    <name>APT Synchroniser</name>
+    <change-notes>
+    </change-notes>
+  </plugin>
+
 </plugins>
