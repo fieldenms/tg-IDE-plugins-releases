@@ -8,6 +8,13 @@
     <idea-version since-build="232.10203.10" until-build=""/>
     <name>Annotation Processing Tool</name>
     <depends>fielden.idea.apt-sync</depends>
+    <description>
+        Provides support for annotation processing integrated into the IDE, as opposed to running as a part of the
+        compilation process. The plugin supports configuration of individual project modules and JARs with annotation
+        processors. Annotation processing kicks in whenever a file's content changes, either due to being saved in the
+        IDE or as a result of external changes; renaming, moving, and deletion of a file also invokes annotation processing.
+        Those who are familiar with annotation processing in the Eclipse IDE will find this plugin's mechanics very similar.
+    </description>
     <change-notes>
         <![CDATA[
         <ul>
@@ -23,6 +30,9 @@
       version="0.1-20240402.100000">
     <idea-version since-build="232.10203.10" until-build=""/>
     <name>APT Synchroniser</name>
+    <description>
+        Provides support for plugins dependent on the APT plugin in the form of synchronisation facilities.
+    </description>
     <change-notes>
     </change-notes>
   </plugin>
@@ -33,6 +43,9 @@
       version="0.2-20240402.100000">
     <idea-version since-build="231" until-build=""/>
     <name>Trident Genesis (TG) Tools</name>
+    <description>
+        This plugin facilitates the development of TG applications.
+    </description>
     <change-notes>
     </change-notes>
   </plugin>
