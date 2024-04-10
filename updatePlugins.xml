@@ -43,6 +43,7 @@
       version="0.2-20240402.100000">
     <idea-version since-build="231" until-build=""/>
     <name>Trident Genesis (TG) Tools</name>
+    <depends>fielden.idea.apt-sync</depends>
     <description>
         This plugin facilitates the development of TG applications.
     </description>
