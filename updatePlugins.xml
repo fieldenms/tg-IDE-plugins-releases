@@ -3,8 +3,8 @@
 
   <plugin
       id="fielden.idea.apt"
-      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/idea-apt%2F0.2-20240402.100000/idea-apt-0.2-20240402.100000.zip"
-      version="0.2-20240402.100000">
+      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/idea-apt%2F0.2-20240424.113500/idea-apt-0.2-20240424.113500.zip"
+      version="0.2-20240424.113500">
     <idea-version since-build="232.10203.10" until-build=""/>
     <name>Annotation Processing Tool</name>
     <depends>fielden.idea.apt-sync</depends>
@@ -18,7 +18,7 @@
     <change-notes>
         <![CDATA[
         <ul>
-            <li> Avoid <code>ContainerDisposedException</code> when handling projects.
+            <li> Avoid <code>UnsupportedOperationException</code> during logging.
         </ul>
         ]]>
     </change-notes>
