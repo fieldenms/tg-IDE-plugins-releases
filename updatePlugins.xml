@@ -39,8 +39,8 @@
 
   <plugin
       id="fielden.tg-idea-plugin"
-      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/tg-idea-plugin%2F1.4.6-20240402.100000/tg-idea-plugin-1.4.6-20240402.100000.zip"
-      version="0.2-20240402.100000">
+      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/tg-idea-plugin%2F1.4.6-20240513.091000/tg-idea-plugin-1.4.6-20240513.091000.zip"
+      version="1.4.6-20240513.091000">
     <idea-version since-build="231" until-build=""/>
     <name>Trident Genesis (TG) Tools</name>
     <depends>fielden.idea.apt-sync</depends>
@@ -48,6 +48,11 @@
         This plugin facilitates the development of TG applications.
     </description>
     <change-notes>
+        <![CDATA[
+        <ul>
+            <li> Resolve "Incorrect key type is used to generate JMC job event and schedule".
+        </ul>
+        ]]>
     </change-notes>
   </plugin>
 
