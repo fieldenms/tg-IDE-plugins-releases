@@ -39,8 +39,8 @@
 
   <plugin
       id="fielden.tg-idea-plugin"
-      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/tg-idea-plugin%2F1.4.6-20240513.091000/tg-idea-plugin-1.4.6-20240513.091000.zip"
-      version="1.4.6-20240513.091000">
+      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/tg-idea-plugin%2F1.4.6-20240702.083500/tg-idea-plugin-1.4.6-20240702.083500.zip"
+      version="1.4.6-20240702.083500">
     <idea-version since-build="231" until-build=""/>
     <name>Trident Genesis (TG) Tools</name>
     <depends>fielden.idea.apt-sync</depends>
@@ -50,7 +50,8 @@
     <change-notes>
         <![CDATA[
         <ul>
-            <li> Resolve "Incorrect key type is used to generate JMC job event and schedule".
+            <li> <a href="https://github.com/fieldenms/tg-IDE-plugins/issues/39">Issue #39</a>: Generated CanOpen Token is missing whitespace in its title
+            <li> <a href="https://github.com/fieldenms/tg-IDE-plugins/issues/41">Issue #41</a>: Master CanOpen Token is not generated for JMC Job Schedule entities
         </ul>
         ]]>
     </change-notes>
