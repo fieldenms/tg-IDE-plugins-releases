@@ -3,8 +3,8 @@
 
   <plugin
       id="fielden.idea.apt"
-      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/idea-apt%2F0.3.0/idea-apt-0.3.0.zip"
-      version="0.3.0">
+      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/idea-apt%2F0.4.0/idea-apt-0.4.0.zip"
+      version="0.4.0">
     <idea-version since-build="232.10203.10" until-build=""/>
     <name>Annotation Processing Tool</name>
     <depends>fielden.idea.apt-sync</depends>
@@ -18,13 +18,16 @@
 
     <change-notes>
       <![CDATA[
-      <ul>
-        <li> <a href="https://github.com/fieldenms/idea-apt/issues/19">#19</a> 
-          <ul>
-            <li> When declared fields of a class are modified, its affected sources will be processed as well.
-            <li> Affected sources of a class now also include sources affected by its subclasses.
-          </ul>
-      </ul>
+<ul>
+<li> <a href="https://github.com/fieldenms/idea-apt/issues/22">#22</a> 
+  <p> 
+  In multi-module Maven projects, annotation processors may see outdated class files instead of the latest source code, especially when automatic recompilation is disabled. 
+  The plugin now automatically adds dependent modules to the source path during processing, ensuring annotation processors use the same up-to-date sources that developers see.
+<li> <a href="https://github.com/fieldenms/idea-apt/issues/24">#24</a> 
+  <p>
+  Annotation processing previously handled affected sources only within a single module, ignoring cross-module dependencies. 
+  The plugin now detects when changes in one module affect sources in dependent modules and automatically reprocesses affected files in those modules to ensure that results are consistent.
+</ul>
       ]]>
     </change-notes>
 
