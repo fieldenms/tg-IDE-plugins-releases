@@ -42,8 +42,8 @@ This is a patch release that includes the following:
 
   <plugin
       id="fielden.tg-idea-plugin"
-      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/tg-idea-plugin%2F2.3.1/tg-idea-plugin-2.3.1.zip"
-      version="2.3.1">
+      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/tg-idea-plugin%2F2.3.2/tg-idea-plugin-2.3.2.zip"
+      version="2.3.2">
     <idea-version since-build="231" until-build=""/>
     <name>Trident Genesis (TG) Tools</name>
     <depends>fielden.idea.apt-sync</depends>
@@ -52,7 +52,7 @@ This is a patch release that includes the following:
     </description>
     <change-notes>
         <![CDATA[
-Addressed several errors that were occurring during IDE startup (<a href="https://github.com/fieldenms/tg-IDE-plugins/issues/53">Issue #53</a>).
+<a href="https://github.com/fieldenms/tg-IDE-plugins/issues/46">Issue #46</a> - Improvements to locator generation.
         ]]>
     </change-notes>
   </plugin>
