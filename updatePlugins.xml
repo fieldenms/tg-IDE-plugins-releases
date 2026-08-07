@@ -3,9 +3,9 @@
 
   <plugin
       id="fielden.idea.apt"
-      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/idea-apt%2F0.4.1/idea-apt-0.4.1.zip"
-      version="0.4.1">
-    <idea-version since-build="253.28294.334" until-build=""/>
+      url="https://github.com/fieldenms/tg-IDE-plugins-releases/releases/download/idea-apt%2F0.5.0/idea-apt-0.5.0.zip"
+      version="0.5.0">
+    <idea-version since-build="262.8665.258" until-build=""/>
     <name>Annotation Processing Tool</name>
     <depends>fielden.idea.apt-sync</depends>
     <description>
@@ -18,9 +18,11 @@
 
     <change-notes>
       <![CDATA[
-This is a patch release that includes the following:
+This version of the plugin requires IntelliJ IDEA version 2026.2 or later.
+
+This is a minor release that includes the following:
 <ul>
-  <li> The APT tool window was repaired: it now correctly displays Problems and Messages tabs. (<a href="https://github.com/fieldenms/idea-apt/issues/26">Issue #26</a>)
+  <li> Improve compatibility with IntelliJ IDEA 2026.2. (<a href="https://github.com/fieldenms/idea-apt/issues/30">Issue #30</a>)
 </ul>
       ]]>
     </change-notes>
